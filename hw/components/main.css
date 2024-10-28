@@ -1,0 +1,344 @@
+.main_first--section {
+  background-color: #163a24;
+  color: #fbfaf7;
+}
+
+.main_container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.main_first--section .main_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_first--leftside {
+  align-self: center;
+}
+
+.main_first--title {
+  margin-bottom: 18px;
+  max-width: 391px;
+  font-family: Recoleta;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 65.25px;
+  text-align: left;
+}
+
+.main_first--text {
+  max-width: 475px;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+
+.main_first--rightside img {
+  max-width: 726px;
+  object-fit: cover;
+}
+
+.main_second--section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.main_second--section .main_second--card {
+  display: flex;
+  gap: 98px;
+  align-items: center;
+}
+
+.main_second--title {
+  font-family: Recoleta;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  color: #163a24;
+  max-width: 325px;
+  margin-bottom: 27px;
+}
+
+.main_second--text {
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #163a24;
+  max-width: 374px;
+}
+
+.main_second--card:nth-child(2) .main_second--title {
+  max-width: 376px;
+}
+
+.main_second--partners {
+  margin-top: 113px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_second--partners--title {
+  font-family: Recoleta;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+  color: #163a24;
+  margin-bottom: 66px;
+}
+
+.main_second--logos {
+  max-width: 897px;
+  display: flex;
+  gap: 86px;
+  align-items: center;
+}
+
+.main_third--section {
+  background-color: #163a24;
+}
+
+.main_third--section .main_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main_third--cards {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
+  gap: 48px;
+}
+
+.main_third--title {
+  font-family: Recoleta;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+  color: #fbfaf7;
+  padding-top: 66px;
+  margin-bottom: 73px;
+}
+
+.main_third--card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_third--card--text {
+  max-width: 198px;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #fbfaf7;
+  margin-top: 28px;
+}
+
+.main_fourth--section {
+  padding-top: 120px;
+  padding-bottom: 135px;
+  background: #f2efe6;
+}
+
+.main_fourth--title {
+  font-family: Recoleta;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+  color: #163a24;
+  max-width: 739px;
+  margin-bottom: 27px;
+}
+
+.main_fourth--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_fourth--text {
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #163a24;
+  max-width: 760px;
+}
+
+.main_fourth--content::after {
+  content: "";
+  background-image: url("../images/dance-people.png");
+  width: 1180px;
+  height: 335px;
+  display: inline-block;
+}
+
+.main_fifth--section {
+  padding-top: 180px;
+}
+
+.main_fifth--title {
+  max-width: 338px;
+  font-family: Recoleta;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  color: #163a24;
+  margin-bottom: 27px;
+}
+
+.main_fifth--title:first-child {
+  padding-top: 93px;
+}
+
+.main_fifth--text {
+  max-width: 379px;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #163a24;
+  padding-bottom: 117px;
+}
+
+.main_fifth--top {
+  background-image: url("../images/granddad.png");
+  background-repeat: no-repeat;
+  background-position-x: 492px;
+}
+
+.main_fifth--section .main_container {
+  padding-left: 98px;
+}
+
+.main_fifth--bottom .main_fifth--title {
+  max-width: 727px;
+  padding-top: 120px;
+}
+
+.main_fifth--bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_fifth--bottom .main_fifth--text {
+  margin-bottom: 18px;
+  padding-bottom: 0;
+}
+
+.main_fifth--cards {
+  display: flex;
+  gap: 40px;
+}
+
+.main_fifth--cardlist li {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+.main_fifth--cardlist {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.main_fifth--card--title {
+  margin-top: 20px;
+  font-family: Recoleta;
+font-size: 28px;
+font-weight: 600;
+line-height: 31.5px;
+text-align: left;
+color: #163a24;
+margin-bottom: 23px;
+}
+
+.main_fifth--card:first-child .main_fifth--card--title {
+max-width: 160px;
+}
+
+.main_fifth--card:nth-child(2) .main_fifth--card--title {
+max-width: 285px;
+}
+
+.main_fifth--card:last-child .main_fifth--card--title {
+max-width: 301px;
+}
+
+.main_fifth--cardlist--text {
+  font-family: Noto Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.79px;
+text-align: left;
+color: #163a24;
+}
+
+.main_fifth--card:first-child {
+  width: 353px;
+  height: 393px;
+  padding: 50px 40px 66px 40px ;
+}
+
+.main_fifth--card:nth-child(2) {
+  width: 353px;
+  height: 430px;
+  padding: 50px 28px 66px 40px ;
+}
+
+.main_fifth--card:last-child {
+  width: 353px;
+  height: 393px;
+  padding: 50px 40px 66px 40px ;
+}
+
+.main_fifth--card {
+  box-shadow: 5px 5px 20px 0px #E9E4D5;
+}
+
+.main_fifth--cards {
+  padding-bottom: 120px;
+}
+
+.sixth--section {
+  padding-top: 120px;
+}
+
+.main_sixth--title {
+  padding-bottom: 26px;
+  font-family: Recoleta;
+font-size: 47px;
+font-weight: 600;
+line-height: 54px;
+text-align: center;
+color: #163A24;
+}
+
+.main_sixth--text {
+  font-family: Noto Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+color: #163A24;
+}
