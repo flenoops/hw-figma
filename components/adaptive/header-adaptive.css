@@ -1,0 +1,11 @@
+@media screen and (max-width: 550px) {
+    .header_container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header_nav {
+        flex-direction: column;
+    }
+}

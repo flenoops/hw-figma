@@ -1,0 +1,30 @@
+@media screen and (max-width:920px) {
+    .footer_bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:540px) {
+    .footer_top--left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:389px) {
+    .footer_top--title {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .footer_bottom--list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 15px;
+    }
+
+}

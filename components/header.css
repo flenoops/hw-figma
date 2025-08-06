@@ -3,10 +3,18 @@
     src: url("./fonts/Recoleta-RegularDEMO.otf") format(".otf");
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: #163A24;
     padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
 }
+
 
 .header_container {
     width: 100%;
@@ -15,6 +23,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
 }
 
 .header_nav {
@@ -44,4 +53,6 @@ header {
     text-align: center;
     color: #FBFAF7;
     background-color: #198C36;
+    transition: 1s ease-in-out;
+    cursor: pointer;
 }
